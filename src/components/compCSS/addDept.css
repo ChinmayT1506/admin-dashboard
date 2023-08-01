@@ -1,0 +1,84 @@
+.addDepartment {
+    font-family: 'Poppins', sans-serif;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-top: 2.7rem;
+    margin-left: 2rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    width: max-content;
+}
+
+.nav li {
+    list-style: none;
+    padding-right: 1rem;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    font-family: 'Poppins';
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.parentblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2.5rem;
+    width: 75%;
+    background: #F7FAFC;
+}
+
+.blocktwo {
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+    width: 98%;
+}
+
+.mailpass {
+    display: flex;
+    flex-direction: row;
+}
+
+.state {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.whitebg {
+    background-color: #fff;
+    width: 170%;
+    padding: 2rem;
+    padding-right: 17rem;
+    margin-bottom: 2rem;
+}
+
+.labelitem {
+    color: #262626;
+    font-family: 'Poppins';
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}

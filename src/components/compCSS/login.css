@@ -1,0 +1,140 @@
+.login-container {
+    background: #F4FAFF;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.upperImage {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("adminImg.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.lowerImage {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("adminImg2.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 59vw;
+    overflow: hidden;
+}
+
+.login-right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background: #F4FAFF;
+}
+
+.inner-login-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 55vh;
+}
+
+.loginArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+}
+
+.loginHeading h4 {
+    font-size: 1.2rem;
+}
+
+.loginHeading img {
+    height: 6rem;
+    width: 6.2rem;
+}
+
+.adminHeading {
+    display: flex;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.adminHeading h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.165px;
+}
+
+.loginForm form {
+    display: flex;
+    height: 30vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.loginForm input {
+    width: 423px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #CBC9C9;
+    background: #FFF;
+    padding-left: 0.8rem;
+}
+
+.loginForm label {
+    color: var(--gray-600, #5B6D8E);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.loginForm button {
+    display: flex;
+    width: 425px;
+    height: 54px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #015BC4;
+    color: #FFF;
+    box-shadow: 0px 6px 26px 0px rgba(35, 80, 139, 0.15);
+}
+
+.rememberPass{
+    display: flex;
+    justify-content: space-between;
+    width: 423px;
+    align-content: center;
+}
+.remPass{
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+}
+#checkbox {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0.7rem;
+}
+.anchor1{
+    text-decoration: underline;
+    color: #015BC4;
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.dataPage {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(220, 252, 252); */
+    /* border: 1px solid rgb(213, 213, 246); */
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-top: 2.7rem;
+    margin-left: 2rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    width: max-content;
+}
+
+.navigation li {
+    list-style: none;
+    padding-right: 1rem;
+}
+
+.header-box {
+    background-color: transparent;
+    padding: 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerbox-1 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    width: max-content;
+    padding: 1.4rem 1.7rem;
+    width: 23rem;
+    margin-right: 2rem;
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+    height: inherit;
+}
+
+.headerInfo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.header-box .img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding: 1.8rem 2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.header-box .img-div img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.dataTable {
+    /* padding: 1rem 2rem 0rem; */
+    background-color: #fff;
+}
+
+.upperDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+}
+
+.dataTable .btn-4 {
+    display: flex;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: #015BC4;
+    color: #fff;
+    border: 1px solid
+
+}
+.plusSign {
+    margin-right: 0.5rem;
+}
+
+.dataTable .searchInput {
+    width: 16rem;
+    height: 3.6rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: 1px solid #DCDCDC;
+}
+
+.dataTable table {
+    border: none;
+    border-radius: 3px;
+    width: 71vw;
+    background-color: #015BC4;
+}
+
+.dataTable table thead {
+    padding: 1rem;
+}
+
+.dataTable table th {
+    background-color: rgba(1, 91, 196, 0.10);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem 2rem;
+}
+
+.dataTable table td {
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.dataTable table tr:nth-child(odd) {
+    background-color: #FBFBFB;
+}
+
+.dataTable table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.page-link {
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+    background-color: #F6F3FF;
+}
+
+.page-link li {
+    color: #e6ecf2;
+    background-color: #F6F3FF;
+}
+
+.page-link a {
+    text-decoration: none;
+    color: #000;
+}
+#img-1{
+    background-color: #FFECE7;
+}
+#img-2{
+    background-color: #F6F3FF;;
+}
+.mui{
+    background-color: transparent;
+    border: none;
+}
+.mui:hover{
+    color: #cab3b3;
+}
